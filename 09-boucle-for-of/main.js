@@ -1,2 +1,9 @@
 const prix = [9, 12, 4];
-// Complétez ici.
+
+let somme = 0
+
+for (const Prix of prix) {
+    somme += Prix
+}
+
+console.log(somme)
