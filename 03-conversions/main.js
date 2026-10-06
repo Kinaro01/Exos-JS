@@ -1,2 +1,9 @@
 const saisie = '7';
-// Essayez aussi 'abc' et '0'.
+
+let quantite = Number(saisie)
+
+if (Number.isInteger(quantite) && quantite > 0) {
+    console.log(quantite * 2)
+} else {
+    console.log("Quantité invalide")
+}
