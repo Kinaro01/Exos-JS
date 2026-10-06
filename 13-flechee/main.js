@@ -1,2 +1,7 @@
 const noms = ['Maya', 'Noa'];
-// Complétez ici.
+
+const Majuscule = nom => nom.toUpperCase();
+
+const resultats = noms.map(Majuscule);
+
+console.log(resultats)
