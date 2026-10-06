@@ -1,2 +1,5 @@
 const total = 5;
-// Complétez ici.
+
+for (let numero = 1; numero <= total; numero++) {
+    console.log(`Billet ${numero}`)
+}
